@@ -1,0 +1,25 @@
+#  Copyright 2022 Ahmed Charles <me@ahmedcharles.com>
+#
+#  This work is licensed under a Creative Commons
+#  Attribution-ShareAlike 4.0 International License.
+#  To view a copy of this license, visit
+#
+#      http://creativecommons.org/licenses/by-sa/4.0/
+
+# text files (full name)
+.gitattributes                          text eol=lf
+.gitignore                              text eol=lf
+fp-lib-table                            text eol=lf
+sym-lib-table                           text eol=lf
+
+# text files (extension)
+*.kicad_pcb                             text eol=crlf
+*.kicad_prl                             text eol=lf
+*.kicad_pro                             text eol=lf
+*.kicad_sch                             text eol=crlf
+*.md                                    text eol=lf
+
+# binary files (extension)
+*.jpg                                   binary
+*.pdf                                   binary
+*.png                                   binary
